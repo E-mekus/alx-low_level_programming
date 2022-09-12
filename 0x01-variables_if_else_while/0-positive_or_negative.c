@@ -9,20 +9,21 @@
  * this program prints "Programming is positive, zero, or neagative"
  * return: 0
  */
-int main()
+int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0){
-		printf("%dn, is positive\n", n);
-	}
-	else if (n == 0){
-		printf("%dn, is zero\n", n);
-	}
-	else {
-		printf("%dn, is negative\n", n);
-	}
+	if (n > 0)
+		printf("%i, is positive\n", n);
+	else if (n == 0)
+		printf("%i, is zero\n", n);
+	else
+		printf("%i, is negative\n", n);
+
+/**
+ * return: 0 always
+ */	
 	return (0);
 }

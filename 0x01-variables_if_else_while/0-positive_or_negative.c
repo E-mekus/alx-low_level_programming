@@ -29,7 +29,7 @@ int main(void)
 		printf("%i is negative\n", n);
 	}
 	/**
-	 * return: 0 always
- 	 */
+	 * return: 0 alway
+	 */
 	return (0);
 }

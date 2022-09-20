@@ -1,15 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * swap_values - function swaps the value of two intergers
- * @p: integer to swap
- * @b: intefer to swap
+ * swap_int - swaps the values of two integers
+ * @a: integer to swap
+ * @b: integer to swap
  */
 
-void swap_values(int *p, int *b)
+void swap_int(int *a, int *b)
 {
-	int n = *p;
-	*p = *b;
-	*b = n;
+	int c = *a;
+	*a = *b;
+	*b = c;
 }
